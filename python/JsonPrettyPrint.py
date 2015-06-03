@@ -4,4 +4,4 @@ import json
 
 jsonStr = raw_input()
 prettyPrint = json.loads(jsonStr)
-print json.dumps(prettyPrint, indent=4, ensure_ascii=False)
+print json.dumps(prettyPrint, indent=4, ensure_ascii=False, sort_keys=True)
