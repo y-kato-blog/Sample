@@ -10,4 +10,4 @@ Actions=Clean
 
 [Desktop Action Clean]
 Name=Clean
-Exec=eclipse -clean
+Exec=/home/sample/bin/eclipse-jee-luna-SR2-linux-gtk-x86_64/eclipse -clean
