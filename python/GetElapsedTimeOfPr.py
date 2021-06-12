@@ -44,4 +44,4 @@ TIME_FORMAT = '%Y-%m-%dT%H:%M:%SZ'
 created_dt = datetime.datetime.strptime(json_str[KEY_CREATED_AT], TIME_FORMAT)
 merged_dt = datetime.datetime.strptime(json_str[KEY_MERGED_AT], TIME_FORMAT)
 elapsed_time = merged_dt - created_dt
-print('Elapsed time:{}'.format(elapsed_time.total_seconds() // 60))
+print('Elapsed time:{}h'.format(elapsed_time.total_seconds() // 60))
